@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Padma Convention Hall | programming Hero Assignment - 3</title>
+        <!-- Font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/dad7007a2e.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- TW-element CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <nav
+                class="relative w-full flex flex-wrap items-center justify-between py-10 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light fixed-top"
+            >
+                <div
+                    class="container mx-auto w-full flex flex-wrap items-center justify-between px-6"
+                >
+                    <button
+                        class="navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <svg
+                            aria-hidden="true"
+                            focusable="false"
+                            data-prefix="fas"
+                            data-icon="bars"
+                            class="w-6"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                fill="currentColor"
+                                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                            ></path>
+                        </svg>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse flex-grow items-center"
+                        id="navbarSupportedContent"
+                    >
+                        <a class="text-xl text-black font-semibold" href="#"
+                            >Padma Convention Hall</a
+                        >
+                        <!-- Left links -->
+                        <ul
+                            class="navbar-nav flex flex-col pl-0 list-style-none ml-auto"
+                        >
+                            <li class="nav-item pr-2">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item pr-2">
+                                <a
+                                    class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                                    href="#"
+                                    >Features</a
+                                >
+                            </li>
+                            <li class="nav-item pr-2">
+                                <a
+                                    class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                                    href="#"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="nav-item pr-2">
+                                <a class="nav-link p-0">About</a>
+                            </li>
+                        </ul>
+                        <!-- Left links -->
+                    </div>
+                    <!-- Collapsible wrapper -->
+                </div>
+            </nav>
+            <section>
+                <div
+                    id="carouselDarkVariant"
+                    class="carousel slide carousel-fade carousel-dark relative"
+                    data-bs-ride="carousel"
+                >
+                    <!-- Indicators -->
+                    <div
+                        class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4"
+                    >
+                        <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="4"
+                            aria-label="Slide 1"
+                        ></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner relative w-full overflow-hidden">
+                        <!-- Single item -->
+                        <div
+                            class="carousel-item active relative float-left w-full bg-gray-900/40"
+                        >
+                            <img
+                                src="images/carousel/image-1.jpg"
+                                class="block w-full"
+                                alt="Motorbike Smoke"
+                            />
+                            <div
+                                class="carousel-caption hidden md:block absolute text-center"
+                            >
+                                <h1 class="text-4xl font-bold">
+                                    The perfect venue for your next event
+                                </h1>
+                                <p class="mx-auto mt-4">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Fuga ipsam a fugit
+                                    ducimus. Deserunt, aperiam! Odit, inventore
+                                    repellat et reiciendis delectus nesciunt
+                                    molestias, culpa, maxime neque reprehenderit
+                                    consectetur quos cupiditate.
+                                </p>
+                                <button
+                                    class="bg-white text-blue-600 px-5 py-3 rounded-lg my-4"
+                                >
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                src="images/carousel/image-2.jpg"
+                                class="block w-full"
+                                alt="Mountaintop"
+                            />
+                            <div
+                                class="carousel-caption hidden md:block absolute text-center"
+                            >
+                                <h1 class="text-4xl font-bold">
+                                    The perfect venue for your next event
+                                </h1>
+                                <p class="mx-auto mt-4">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Fuga ipsam a fugit
+                                    ducimus. Deserunt, aperiam! Odit, inventore
+                                    repellat et reiciendis delectus nesciunt
+                                    molestias, culpa, maxime neque reprehenderit
+                                    consectetur quos cupiditate.
+                                </p>
+                                <button
+                                    class="bg-white text-blue-600 px-5 py-3 rounded-lg my-4"
+                                >
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                src="images/carousel/image-3.jpg"
+                                class="block w-full"
+                                alt="Woman Reading a Book"
+                            />
+                            <div
+                                class="carousel-caption hidden md:block absolute text-center"
+                            >
+                                <h1 class="text-4xl font-bold">
+                                    The perfect venue for your next event
+                                </h1>
+                                <p class="mx-auto mt-4">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Fuga ipsam a fugit
+                                    ducimus. Deserunt, aperiam! Odit, inventore
+                                    repellat et reiciendis delectus nesciunt
+                                    molestias, culpa, maxime neque reprehenderit
+                                    consectetur quos cupiditate.
+                                </p>
+                                <button
+                                    class="bg-white text-blue-600 px-5 py-3 rounded-lg my-4"
+                                >
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                src="images/carousel/image-4.jpg"
+                                class="block w-full"
+                                alt="Woman Reading a Book"
+                            />
+                            <div
+                                class="carousel-caption hidden md:block absolute text-center"
+                            >
+                                <h1 class="text-4xl font-bold">
+                                    The perfect venue for your next event
+                                </h1>
+                                <p class="mx-auto mt-4">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Fuga ipsam a fugit
+                                    ducimus. Deserunt, aperiam! Odit, inventore
+                                    repellat et reiciendis delectus nesciunt
+                                    molestias, culpa, maxime neque reprehenderit
+                                    consectetur quos cupiditate.
+                                </p>
+                                <button
+                                    class="bg-white text-blue-600 px-5 py-3 rounded-lg my-4"
+                                >
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+                        <div class="carousel-item relative float-left w-full">
+                            <img
+                                src="images/carousel/image-5.jpg"
+                                class="block w-full"
+                                alt="Woman Reading a Book"
+                            />
+                            <div
+                                class="carousel-caption hidden md:block absolute text-center"
+                            >
+                                <h1 class="text-4xl font-bold">
+                                    The perfect venue for your next event
+                                </h1>
+                                <p class="mx-auto mt-4">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Fuga ipsam a fugit
+                                    ducimus. Deserunt, aperiam! Odit, inventore
+                                    repellat et reiciendis delectus nesciunt
+                                    molestias, culpa, maxime neque reprehenderit
+                                    consectetur quos cupiditate.
+                                </p>
+                                <button
+                                    class="bg-white text-blue-600 px-5 py-3 rounded-lg my-4"
+                                >
+                                    Book Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                    <button
+                        class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                        type="button"
+                        data-bs-target="#carouselDarkVariant"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon inline-block bg-no-repeat"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                        type="button"
+                        data-bs-target="#carouselDarkVariant"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon inline-block bg-no-repeat"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </header>
+        <main>
+            <!-- Packages -->
+            <div class="grid grid-rows-4">
+                <div class="col flex justify-center">
+                    <div
+                        class="block rounded-lg shadow-lg bg-white max-w-sm text-center"
+                    >
+                        <h2 class="pt-3 px-6 text-left text-3xl text-indigo-600">
+                            $300
+                        </h2>
+                        <div class="p-6 text-left">
+                            <h5 class="text-gray-900 text-xl font-medium mb-2">
+                                Special title treatment
+                            </h5>
+                            <p class="text-gray-700 text-base mb-4">
+                                With supporting text below as a natural lead-in
+                                to additional content.
+                            </p>
+                            <ul>
+                                <li
+                                    class="flex items-center"
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 1</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 2</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 3</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 4</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 5</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 6</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 7</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 8</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 9</span>
+                                </li>
+                                <li
+                                    class="flex items-center "
+                                >
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5 bg-blue-400 p-1 text-white rounded-full mr-2"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                    >
+                                        <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="2"
+                                            d="M5 13l4 4L19 7"
+                                        />
+                                    </svg>
+                                    <span>li - 10</span>
+                                </flex items-center >
+                            </ul>
+                        </div>
+                        <div
+                            class="py-3 px-6">
+                            <button
+                                type="button"
+                                class="inline-block bg-red-100 w-full h-12 rounded-lg text-blue-500 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:text-white focus:text-white active:text-white hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out"
+                            >
+                                Choose a plan
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- TW-element script -->
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    </body>
+</html>
